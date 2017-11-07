@@ -59,8 +59,8 @@ export default class FacebookLoginButton extends Component {
           <View
             style={{
               flex: 8,
-              paddingLeft: 15,
-              paddingRight: 15,
+              paddingHorizontal: 30,
+              paddingVertical: 10,
               justifyContent: "center"
             }}
           >
@@ -265,7 +265,9 @@ const styles = {
     alignItems: "center",
     alignSelf: "center",
     height: 40,
-    width: 60
+    width: 100,
+    borderRadius: 20,
+    
   },
   buttonTextStyle: {
     flex: 1,
