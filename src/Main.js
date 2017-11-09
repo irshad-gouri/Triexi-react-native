@@ -5,6 +5,7 @@ import { fetchData } from './actions/actions';
 import IntroCarousel from './screens/IntroductionSlider/IntroCarousel'
 import HomeScreen from './screens/HomeScreen'
 import NotAGirl from './screens/NotAGirl'
+import AddIntrest from './screens/InterestPage/AddIntrest'
 
 
 const styles = StyleSheet.create({
@@ -19,7 +20,7 @@ export class Main extends Component {
   render() {
     return(
       <View style={styles.container}>
-        <IntroCarousel />
+        <AddIntrest />
       </View>
     )
   }
